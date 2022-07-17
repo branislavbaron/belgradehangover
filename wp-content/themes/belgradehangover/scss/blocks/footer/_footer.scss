@@ -1,0 +1,56 @@
+//-------------------------
+//-------------------FOOTER
+//-------------------------
+#footer-halper {
+  position: relative;
+  background-color: #060606;
+  padding: 4rem 0;
+  @include breakpoint(phone) {
+    text-align: center;
+  }
+  .footer-menu {
+    .footer-header {
+          font-size: 1.5rem;
+          font-weight: 300;
+          line-height: 1.2;
+          text-transform: uppercase;
+          letter-spacing: 0.2rem;
+          color: $colorWhite;
+          margin: 2.5rem 0;
+    }
+    ul {
+      li {
+        margin-bottom: 1rem;
+        a {
+          text-decoration: none;
+          color: $colorWhite;
+          text-transform: uppercase;
+          letter-spacing: 0.2rem;
+          transition: all 0.4s ease-out;
+          &:hover {
+            color: $colorRed;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+position: relative;
+  background-color: $colorBlack;
+  color: $colorWhite;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  padding: 1rem 5.8%;
+  text-align: center;
+  @include breakpoint (phone){
+    padding: 0rem 5.8%;
+  }
+  .copyrights,
+  .developedBy,
+  .socialLinks{
+    @include breakpoint (toDesktop){
+      width: 100%;
+    }
+  }
+}

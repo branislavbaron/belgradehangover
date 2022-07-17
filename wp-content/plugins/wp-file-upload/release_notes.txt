@@ -1,0 +1,3 @@
+<!--  --><span><strong>Version 4.16.4</strong> is a minor update that improves protection against XSS attacks coming through the post/page title.<br /><br />
+For more details about this version's changes please visit the <strong>Release Notes</strong> of the plugin's </span><a href="http://www.iptanus.com/wordpress-plugins/wordpress-file-upload/">support page</a><span>.</span><!--  -->
+<!--  -->

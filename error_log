@@ -1,0 +1,156 @@
+[28-May-2018 20:20:24 UTC] WordPress database error Duplicate entry '2018-05-29' for key 'unique_date' for query INSERT INTO wp_statistics_visit (last_visit, last_counter, visit) VALUES ( '', '2018-05-29', 0) made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WP_Statistics_Schedule::add_visit_event
+[29-May-2018 14:17:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:18:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:18:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:18:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:18:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:18:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:18:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:19:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:19:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:19:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:23:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:28:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:28:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:28:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:28:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:28:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:33:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:40:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:40:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:40:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[29-May-2018 14:40:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 80
+[14-Jul-2018 13:37:04 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:56:22 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:56:29 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:56:32 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:56:36 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:56:40 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:56:56 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[14-Jul-2018 14:57:41 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[15-Jul-2018 22:50:43 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[15-Jul-2018 22:50:46 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 07:19:12 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 07:30:26 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:42:39 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:42:55 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:42:59 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:19 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:21 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:33 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:35 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:37 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:39 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:43 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:43:46 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:44:11 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:46:36 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:46:39 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:47:37 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:47:56 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:48:30 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:48:54 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:48:57 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:49:33 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[16-Jul-2018 11:49:33 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:05 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:05 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:13 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:53 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:53 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:54 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:54 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:54 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:54 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:55 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:13:55 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:06 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:06 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:06 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:06 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:07 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:12 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:12 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:13 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:15 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 18:15:15 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 19:45:13 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 19:45:49 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[22-Jul-2018 19:45:59 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[23-Jul-2018 12:46:34 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[23-Jul-2018 12:46:37 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[23-Jul-2018 17:24:55 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[23-Jul-2018 17:36:31 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[23-Jul-2018 17:36:39 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[23-Jul-2018 17:36:55 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[02-Aug-2018 22:24:43 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[02-Aug-2018 22:24:47 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[02-Aug-2018 22:24:49 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 22:57:19 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 22:57:34 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 22:57:47 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 23:00:18 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 23:00:30 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 23:00:37 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 23:00:39 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[08-Aug-2018 23:43:33 UTC] PHP Fatal error:  Class 'OST\OST' not found in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 147
+[10-Aug-2018 01:07:15 UTC] PHP Fatal error:  Call to undefined function tribe_get_events() in /home/belgra19/public_html/wp-content/themes/belgradehangover/front-page.php on line 3
+[10-Aug-2018 01:07:18 UTC] PHP Fatal error:  Call to undefined function tribe_get_events() in /home/belgra19/public_html/wp-content/themes/belgradehangover/front-page.php on line 3
+[10-Aug-2018 01:07:20 UTC] PHP Fatal error:  Call to undefined function tribe_get_events() in /home/belgra19/public_html/wp-content/themes/belgradehangover/front-page.php on line 3
+[10-Aug-2018 01:07:21 UTC] PHP Fatal error:  Call to undefined function tribe_get_events() in /home/belgra19/public_html/wp-content/themes/belgradehangover/front-page.php on line 3
+[10-Aug-2018 07:43:02 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'id missing in request params' in /home/belgra19/public_html/vendor/ostdotcom/ost-sdk-php/src/Services/Base.php:60
+Stack trace:
+#0 /home/belgra19/public_html/vendor/ostdotcom/ost-sdk-php/src/Services/V1_1/Ledger.php(29): OST\Base->getId(Array)
+#1 /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php(20): OST\V1_1\Ledger->get(Array)
+#2 /home/belgra19/public_html/wp-includes/template-loader.php(74): include('/home/belgra19/...')
+#3 /home/belgra19/public_html/wp-blog-header.php(19): require_once('/home/belgra19/...')
+#4 /home/belgra19/public_html/index.php(17): require('/home/belgra19/...')
+#5 {main}
+  thrown in /home/belgra19/public_html/vendor/ostdotcom/ost-sdk-php/src/Services/Base.php on line 60
+[10-Aug-2018 08:22:43 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('2', '9', '16', NULL)
+[10-Aug-2018 08:22:54 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('1', '4', '16', NULL)
+[10-Aug-2018 08:22:59 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('3', '9', '16', NULL)
+[10-Aug-2018 08:24:38 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('2', '9', '4', NULL)
+[10-Aug-2018 08:24:56 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('1', '4', '4', NULL)
+[10-Aug-2018 08:25:02 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('3', '9', '4', NULL)
+[10-Aug-2018 08:27:40 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('2', '9', '16', NULL)
+[10-Aug-2018 08:29:22 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('4', '9', '16', NULL)
+[10-Aug-2018 08:39:40 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('2', '9', '36', NULL)
+[10-Aug-2018 08:45:11 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('2', '9', '4', NULL)
+[13-Aug-2018 17:44:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 161
+[13-Aug-2018 17:44:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 161
+[13-Aug-2018 17:44:56 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 161
+[13-Aug-2018 17:45:08 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 161
+[13-Aug-2018 17:45:10 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 161
+[13-Aug-2018 17:46:18 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:46:19 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:46:33 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:46:43 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:49:02 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:49:04 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:50:57 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:50:58 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:52:08 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 17:52:14 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/header.php on line 162
+[13-Aug-2018 19:10:27 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 24
+[13-Aug-2018 19:10:41 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/belgra19/public_html/wp-includes/wp-db.php on line 1102
+[13-Aug-2018 19:12:47 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/belgra19/public_html/wp-includes/wp-db.php on line 1102
+[13-Aug-2018 19:13:57 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 2 to be string, array given in /home/belgra19/public_html/wp-includes/wp-db.php on line 1102
+[13-Aug-2018 19:22:21 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('1', '4', '4', NULL)
+[13-Aug-2018 19:34:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/belgra19/public_html/wp-content/plugins/likebtn-like-button/likebtn_like_button.php on line 79
+[13-Aug-2018 19:34:22 UTC] PHP Parse error:  syntax error, unexpected ''transp' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/belgra19/public_html/wp-content/plugins/likebtn-like-button/likebtn_like_button.php on line 384
+[13-Aug-2018 19:34:22 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/belgra19/public_html/wp-content/plugins/likebtn-like-button/likebtn_like_button.php on line 8205
+[13-Aug-2018 23:38:49 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'id missing in request params' in /home/belgra19/public_html/vendor/ostdotcom/ost-sdk-php/src/Services/Base.php:60
+Stack trace:
+#0 /home/belgra19/public_html/vendor/ostdotcom/ost-sdk-php/src/Services/V1_1/Ledger.php(29): OST\Base->getId(Array)
+#1 /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php(20): OST\V1_1\Ledger->get(Array)
+#2 /home/belgra19/public_html/wp-includes/template-loader.php(74): include('/home/belgra19/...')
+#3 /home/belgra19/public_html/wp-blog-header.php(19): require_once('/home/belgra19/...')
+#4 /home/belgra19/public_html/index.php(17): require('/home/belgra19/...')
+#5 {main}
+  thrown in /home/belgra19/public_html/vendor/ostdotcom/ost-sdk-php/src/Services/Base.php on line 60
+[22-Aug-2018 19:11:43 UTC] PHP Warning:  file_get_contents(https://api.coinmarketcap.com/v2/ticker/2296/?convert=EUR): failed to open stream: HTTP request failed!  in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 56
+[22-Aug-2018 19:11:43 UTC] PHP Warning:  Error while sending QUERY packet. PID=2177331 in /home/belgra19/public_html/wp-includes/wp-db.php on line 1924
+[22-Aug-2018 19:11:44 UTC] WordPress database error Column 'ost_transaction_id' cannot be null for query INSERT INTO `wp_photo_transactions` (`photo_id`, `seller_id`, `buyer_id`, `ost_transaction_id`) VALUES ('3', '9', '9', NULL)
+[22-Aug-2018 19:14:35 UTC] PHP Warning:  file_get_contents(https://api.coinmarketcap.com/v2/ticker/2296/?convert=EUR): failed to open stream: HTTP request failed!  in /home/belgra19/public_html/wp-content/themes/belgradehangover/user-profile.php on line 56
+[22-Aug-2018 19:14:35 UTC] PHP Warning:  Error while sending QUERY packet. PID=2183955 in /home/belgra19/public_html/wp-includes/wp-db.php on line 1924

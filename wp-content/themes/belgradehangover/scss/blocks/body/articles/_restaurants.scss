@@ -1,0 +1,220 @@
+.single-restaurants{
+  .contentPage{
+    padding-bottom: 2rem;
+  }
+  .venueDetails{
+    position: absolute;
+    bottom: 15%;
+    background: url('./img/fabric-dark.png') transparentize($colorBlack, .1);
+    left: 20%;
+    right: 20%;
+    padding: 1.5rem;
+    text-align: center;
+    transform: skew(-30deg);
+    @include breakpoint (toDesktop){
+      left: 10%;
+      right: 10%;
+    }
+    li{
+      color: $colorWhite;
+      text-shadow: 3px 3px 1px $colorBlack;
+      font-size: 2rem;
+      font-weight: 500;
+      transform: skew(30deg);
+      text-transform: uppercase;
+      &:nth-child(1){
+        span{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+  .contentPage{
+    background-color: $colorWhite;
+    position: relative;
+    h2{
+      text-align: left;
+      font-family: $baseFontBlack;
+      letter-spacing: 1px;
+      color: $colorBlack;
+      display: inline-block;
+      position: relative;
+      @include breakpoint (toDesktop){
+        font-size: 3vw;
+      }
+      @include breakpoint (toDesktop){
+        font-size: 3.5rem;
+      }
+    }
+    .line {
+      /* width: 29%; */
+        height: 0.3rem;
+        background-color: $colorBlack;
+        content: '';
+        /* display: block; */
+        position: absolute;
+        right: -1000%;
+        top: 6rem;
+        left: 115%;
+        @include breakpoint (toDesktop){
+          display: none;
+        }
+        &-l {
+          @extend .line;
+          left: -500%;
+          right: 115%;
+          top: 7rem;
+        }
+    }
+    p{
+      color: $colorBlack;
+      font-size: 1.4rem;
+      margin-bottom: 1.5rem;
+      line-height: 2rem;
+      font-family: $baseFontLight;
+      @include breakpoint(toDesktop){
+        line-height: 3rem;
+        font-size: 1.7vw;
+      }
+      @include breakpoint (toDesktop){
+        font-size: 2.4rem;
+      }
+    }
+  }
+  .call{
+    text-align: center;
+    font-size: 1.6rem;
+    font-size: 0.96794vw;
+    position: relative;
+    &__item{
+      position: relative;
+      display: inline-block;
+      margin: 0 1rem;
+    a{
+      color: $colorWhite;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 1;
+      @include breakpoint (toDesktop){
+        font-size: 2vw;
+      }
+      @include breakpoint (phone){
+        font-size: 2rem;
+      }
+
+    }
+      .mask  {
+        background-color: $colorBlack;
+        content: '';
+        display: block;
+        position: absolute;
+        top: -1rem;
+        bottom: -1rem;
+        right: -1rem;
+        left: -1rem;
+        z-index: 0;
+        -webkit-transform: skew(-30deg);
+        -moz-transform: skew(-30deg);
+        -o-transform: skew(-30deg);
+    }
+    }
+  }
+  #gallery-1{
+    border: 0;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  .gallery-item{
+    overflow: hidden;
+    display: inline-block;
+    height: inherit;
+    position: relative;
+    margin: 0;
+    @include breakpoint (tablet){
+      height: 150px;
+    }
+    &:before{
+      content: "\f030";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      /*--adjust as necessary--*/
+      color: $colorWhite;
+      font-size: 3rem;
+      padding-right: 0.5em;
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      cursor: pointer;
+      z-index: 1;
+      opacity: 0;
+    }
+    &:hover{
+      &:before{
+        opacity: 1;
+      }
+      img{
+        -webkit-filter: blur(1.5px);
+         filter: blur(1.5px);
+         transition: .3s all ease-in;
+      }
+    }
+    &:nth-child(1){
+      width: 24.476%;
+      @include breakpoint (tablet){
+        width: 150px;
+      }
+    }
+    &:nth-child(2){
+          width: 12.24%;
+      @include breakpoint (tablet){
+        width: 300px;
+      }
+    }
+    &:nth-child(3){
+    width: 24.476%;
+      @include breakpoint (tablet){
+        width: 75px;
+      }
+    }
+    &:nth-child(4){
+        width: 12.24%;
+      @include breakpoint (tablet){
+        width: 75px;
+      }
+    }
+    &:nth-child(5){
+    width: 24.476%;
+      @include breakpoint (tablet){
+        width: 300px;
+      }
+    }
+    &:nth-child(6){
+    width: 24.476%;
+      @include breakpoint (tablet){
+        width: 75px;
+      }
+    }
+    &:nth-child(7){
+    width: 24.476%;
+      @include breakpoint (tablet){
+        width: 75px;
+      }
+    }
+    &:nth-child(8){
+        width: 48.958%;
+      @include breakpoint (tablet){
+        width: 150px;
+      }
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      @include breakpoint (tablet){
+        height: auto;
+      }
+    }
+  }
+    }
+}

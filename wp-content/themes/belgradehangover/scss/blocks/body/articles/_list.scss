@@ -1,0 +1,214 @@
+.page-template-page-venue-list{
+  .header__container{
+    background-color: $colorWhite;
+    margin: 0;
+    width: 100%;
+    padding: 0 10%;
+    height: 9rem;
+    @include breakpoint (phone){
+      height: 9rem;
+    }
+    .navigation-border{
+      background-color: $colorBlack;
+    }
+    .menu{
+      li{
+        a{
+          color: $colorLightBlack;
+        }
+      }
+      .current_page_item > a{
+        color: $colorRed;
+        font-weight: normal;
+      }
+    }
+    .contact__item{
+        i{
+        color: $colorLightBlack;
+      }
+    }
+  }
+  font-size: 0;
+  margin-top: 20rem;
+  .nightClubAllList{
+    padding-top: 5rem;
+    padding: 0 17.8%;
+    position: relative;
+    .disco{
+      position: absolute;;
+    opacity: 0.2;
+    top: 11%;
+    right: -22%;
+    width: 90%;
+    }
+    h2{
+      text-align: left;
+      font-family: $baseFontBlack;
+      font-size: 3.6rem;
+      margin-bottom: 10rem;
+      color: $colorBlack;
+      letter-spacing: 0.5px;
+      margin-bottom: 15rem;
+    }
+    .venue{
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      position: relative;
+      background-color: $colorRed;
+      margin: 0 1%;
+      margin-bottom: 10rem;
+      @include breakpoint (phone){
+        width: 100%;
+        display: block;
+      }
+    }
+    .venueLogoList{
+      width: 53.61%;
+      position: absolute;
+      top: -5rem;
+      left: 25%;
+      z-index: 10;
+    }
+    .line{
+      top: 6.5rem;
+      right: 0;
+      left: 32%;
+      position: absolute;
+      background-color: black;
+      /* z-index: 777777; */
+      height: 0.3rem;
+      &Restaurant{
+        left: 34%;
+      }
+      &Tours{
+            left: 26.1%;
+      }
+    @include breakpoint (toDesktop){
+      display: none;
+    }
+  }
+
+    .venueTitle{
+      background: $colorWhite;
+      border: 1px solid $colorWhite;
+      display: block;
+      padding: 4rem 0;
+      text-align: center;
+      font-size: 2.6rem;
+      color: $colorBlack;
+      font-family: $baseFontBlack;
+      text-transform: uppercase;
+    }
+    .venueFeaturedList{
+      overflow: hidden;
+      position: relative;
+        height: 29vw;
+        margin-top: 2rem;
+      img{
+        max-width: none;
+        margin-left: -50%;
+
+      }
+    }
+  }
+  }
+  .parallaxClub{
+  height: 300px;
+  background-image: url('/wp-content/themes/belgradehangover/img/parallaxClub.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  @include breakpoint (toDesktop){
+    background-attachment: inherit;
+  }
+  h2{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    right: 20%;
+    text-transform: none;
+    font-size: 6rem;
+    font-family: $baseFontLight;
+    @include breakpoint (toDesktop){
+      left: 10%;
+      right: 10%;
+    }
+  }
+  }
+  .parallaxRestaurant{
+  height: 300px;
+  background-image: url('/wp-content/themes/belgradehangover/img/parallaxRestaurant.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  @include breakpoint (toDesktop){
+    background-attachment: inherit;
+  }
+  h2{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    right: 20%;
+    text-transform: none;
+    font-size: 6rem;
+    font-family: $baseFontLight;
+    @include breakpoint (toDesktop){
+      left: 10%;
+      right: 10%;
+    }
+
+  }
+  }
+  .tourImage{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  @include breakpoint (phone){
+   display: none;
+  }
+  }
+  }
+  .parallaxTours{
+  height: 300px;
+  background-image: url('/wp-content/themes/belgradehangover/img/parallaxTours.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  @include breakpoint (toDesktop){
+    background-attachment: inherit;
+  }
+  h2{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    right: 20%;
+    text-transform: none;
+    font-size: 6rem;
+    font-family: $baseFontLight;
+    @include breakpoint (toDesktop){
+      left: 10%;
+      right: 10%;
+    }
+  }
+  }
+  .tourList{
+  width: 47% !important;
+  @include breakpoint (phone){
+    width: 100% !important;
+    display: block !important;
+  }
+  }

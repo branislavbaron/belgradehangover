@@ -1,0 +1,214 @@
+
+  .aboutUsPage{
+    position: relative;
+    background-color: $colorLightBlack;
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+    padding: 0 12%;
+    .line{
+      top: 5.2rem;
+    right: 0;
+    left: 30.3%;
+    position: absolute;
+    background-color: white;
+    /* z-index: 777777; */
+    height: 0.3rem;
+    @include breakpoint (toDesktop){
+      display: none;
+      }
+    }
+    .line-l {
+      top: 5.5rem;
+      left: 0;
+      right: 30.3%;
+      position: absolute;
+      background-color: #fff;
+      height: .3rem;
+      @include breakpoint(phone) {
+        top: 6.5rem;
+        right: 70.3%;
+      }
+    }
+    h2{
+      letter-spacing: 0.5rem;
+      text-align: left;
+      color: $colorWhite;
+      font-family: $baseFontBlack;
+      margin-bottom: 2rem;
+      @include breakpoint (toDesktop){
+        font-size: 3.88vw;
+      }
+      @include breakpoint (phone){
+        font-size: 4rem;
+      }
+    }
+    p.lead{
+      color: $colorWhite;
+      font-size: 1.5rem;
+      font-family: $baseFontLight;
+      line-height: 2rem;
+      letter-spacing: 0.3rem;
+      @include breakpoint (toDesktop){
+        font-size: 2vw;
+      }
+      @include breakpoint(phone){
+        font-size: 2.4rem;
+        line-height: 3rem;
+      }
+    }
+    .special{
+      line-height: 1.5rem;
+      @include breakpoint (toDesktop){
+        line-height: 3rem;
+      }
+    }
+    a{
+      color: $colorRed;
+      transition: all 0.5s ease;
+      &:hover {
+        color: $colorWhite;
+      }
+    }
+    .col-md-4 {
+      padding: 0;
+      .card {
+        border: none;
+        border-radius: 0;
+        .card-img {
+          height: 600px;
+          @include breakpoint(phone) {
+            height: 400px;
+          }
+        }
+        .red-logo {
+          position: absolute;
+          top: 5%;
+          left: 0;
+          width: 100%;
+          height: 56px;
+          text-align: center;
+          -webkit-transform: translate(0,-50%);
+          transform: translate(0,-50%);
+          img {
+            position: absolute;
+            width: 105px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+          }
+        }
+        .card-img-overlay {
+          position: absolute;
+          top: 4%;
+          left: 2rem;
+          right: 2rem;
+          display: block;
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background-image: linear-gradient(to bottom,$colorRed,transparent);
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: auto;
+            width: 2px;
+            height: 100%;
+            background-image: linear-gradient(to bottom,$colorRed,transparent);
+          }
+          span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            &:before {
+              content: '';
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 100%;
+                  right: 50%;
+                  margin-right: 76px;
+                  background-color: $colorRed;          }
+            &:after {
+              content: '';
+                  position: absolute;
+                  top: 0;
+                  height: 100%;
+                  margin-right: 76px;
+                  background-color: $colorRed;
+                  right: 0;
+                  left: 50%;
+                  margin-right: 0;
+                  margin-left: 76px;
+            }
+          }
+        }
+        .img-text {
+          position: absolute;
+          color: #fff;
+          letter-spacing: .3rem;
+          width: 94%;
+          bottom: 5%;
+          border: 1px solid $colorWhite;
+          padding: 1rem;
+          @include breakpoint(phone) {
+            padding: 3rem;
+          }
+          h5 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          p {
+            font-size: 1.3rem;
+            font-weight: 500;
+          }
+        }
+        &.text-black {
+          .img-text {
+            color: $colorLightBlack;
+            border: 1px solid $colorLightBlack;
+            background: rgba(255,255,255, 0.4);
+            a {
+              &:hover {
+                color: $colorLightBlack;
+              }
+            }
+          }
+        }
+        }
+      }
+    &Footer{
+      position: relative;
+      p {
+        margin-bottom: 0;
+      }
+      h2{
+        color: $colorWhite;
+        position: absolute;
+        top: 35%;
+        letter-spacing: 1px;
+        left: 15%;
+        right: 15%;
+        font-size: 6rem;
+        font-size: 3.152915vw;
+        text-transform: none;
+            text-shadow: 1px 1px 8px black;
+        @include breakpoint (phone){
+          left: 5%;
+          right: 5%;
+          letter-spacing: 0;
+          top: 15%;
+          font-size: 3rem;
+        }
+      }
+    }
+  }

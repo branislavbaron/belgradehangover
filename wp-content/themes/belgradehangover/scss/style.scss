@@ -1,0 +1,39 @@
+/*
+Theme Name: Belgrade Hangover
+Author: Branislav Baron
+Description: Belgrade Hangover deals with organizing the best experience Belgrade nightlife has to offer for people who like to party and live life to the fullest!
+Version: 1.0.0
+Text Domain: belgradehangover
+Tags: belgradehangover
+*/
+
+
+//------ALL VARIABLES
+@import 'config/variables';
+
+//------MIXINS
+@import 'mixins/breakpoints';
+// @import 'mixins/borderRadius';
+// @import 'mixins/transition';
+// @import 'mixins/transform';
+// @import 'mixins/calc';
+// @import 'mixins/placeholder';
+// @import 'mixins/fontFace';
+
+//------MAIN CONFIG
+@import 'config/reset';
+@import 'config/baseConfig';
+@import 'config/typography';
+@import 'config/helpers';
+
+//------BLOCKS
+@import 'blocks/header/header';
+@import 'blocks/body/body';
+@import 'blocks/footer/footer';
+
+//------LIB
+@import 'lib/animate';
+@import 'lib/hover';
+
+//------ PAGES
+@import 'pages/404Page';

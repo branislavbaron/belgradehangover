@@ -1,0 +1,70 @@
+//-------------------------
+//---------------TYPOGRAPHY
+//-------------------------
+
+//------FONT-FACE
+// @include fontFace (Gotham, gotham-light);
+
+//------FONT SIZES
+@font-face {
+    font-family: attc;
+    src: url(fonts/attc.ttf);
+}
+
+html {
+    $fontSizePX: $baseFontSize + 'px';
+    font-size  : #{$fontSizePX};
+
+    @include breakpoint (tablet) {
+        $fontSizePX: $baseFontSize / 1.5 + 'px';
+        font-size  : #{$fontSizePX};
+    }
+    @include breakpoint (phone) {
+        $fontSizePX: $baseFontSize / 2 + 'px';
+        font-size  : #{$fontSizePX};
+    }
+}
+body {
+    font-size: 100%;
+    font-family: $baseFont;
+}
+
+//------DEFAULT STYLES
+b,
+strong {
+    font-weight: bold;
+}
+i,
+em {
+    font-style: italic;
+}
+u {
+    text-decoration: underline;
+}
+
+//------STYLES
+h1 {
+    font-size: 7.2rem;
+}
+h2{
+  font-size: 3.6rem;
+  font-size: 1.88vw;
+  font-family: $baseFontLight;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3.5rem;
+  padding-top: 4.5rem;
+  letter-spacing: 3px;
+  color: $colorWhite;
+  &.popular-events {
+    color: $colorBlack;
+    margin-bottom: 4rem;
+  }
+  span{
+    font-family: $baseFontBlack;
+  }
+}
+
+.display-4 {
+  font-family: "Montserrat Black",sans-serif;
+}

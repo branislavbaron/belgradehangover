@@ -1,0 +1,348 @@
+#event-list {
+  margin-bottom: 5rem;
+}
+.event-heading {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  margin-bottom: 3rem;
+}
+.eventSchedule {
+  display: none;
+  box-shadow: 0px 2px 20px 5px dimgrey;
+  margin: 1rem;
+  &.active{
+    display: inline-block;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+  }
+}
+.weekSchedule{
+  padding: 2% 15%;
+  font-size: 0;
+  margin-top: 3rem;
+  @include breakpoint (toDesktop){
+    padding: 0 5.8%;
+  }
+  &__events{
+    .col-md-4 {
+      padding-right: 0;
+    }
+    .col-md-8 {
+      padding-left: 0;
+    }
+    .event {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      @include breakpoint(phone) {
+        display: none;
+      }
+      .brand-img {
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+      }
+    }
+    .eventImage{
+      overflow: hidden;
+          transition: all 200ms ease-in;
+                -webkit-transition: all 200ms ease-in;
+                   transform: scale(1);
+                   padding: 0.4rem;
+                   height: 80%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+ .eventDetails {
+  @include breakpoint(phone) {
+    margin-left: 4%;
+  }
+  .eventListItem {
+    padding: 1rem 2rem;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    border-right: none;
+    @include breakpoint(phone) {
+      border-left: none;
+    }
+    &:first-child {
+      border-top: none;
+    }
+    &:nth-child(2){
+      border-bottom: none;
+    }
+    .eventTitle {
+      text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 1rem;
+      font-size: 3rem;
+      color: $colorRed;
+      text-shadow: 2px 1px 5px $colorBlack;
+      font-family: attc;
+      @include breakpoint(phone) {
+        margin-bottom: 3rem;
+      }
+    }
+    .nightclubName {
+      text-transform: uppercase;
+      letter-spacing: 0.7rem;
+      font-size: 2rem;
+      color: $colorBlack;
+    }
+    .musicans, .partyTime {
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      letter-spacing: 0.3rem;
+      color: $colorBlack;
+    }
+    .eventDay {
+      width: 11rem;
+      height: 11.5rem;
+      background-color: transparent;
+      float: right;
+      color: $colorBlack;
+      border: 1px dashed rgba(0,0,0,.2);
+      p {
+        text-transform: uppercase;
+        letter-spacing: 0.3rem;
+        text-align: center;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+      .dateInNumber {
+        font-size: 4rem;
+      }
+    }
+  }
+  .eventDescription {
+    color: $colorBlack;
+    font-size: 1.5rem;
+  }
+  .btn-book {
+    width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+    border: none;
+    border-left: 1px dashed rgba(0,0,0,.2); 
+  }
+  .bookPrice {
+    float: left;
+    width: 100%;
+    border-bottom: none;
+    position: relative;
+    padding: 0;
+    span {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      font-size: 1.5rem;
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+      text-align: left;
+      padding: 0.5rem 1rem;
+    }
+    img {
+      position: absolute;
+      width: 3.5%;
+      left: 40%;
+      margin-top: 0.5rem;
+    }
+  }
+ }
+}
+  &__days{
+    margin-bottom: 4rem;
+    @include breakpoint (phone){
+      text-align: center;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1299px) {
+      text-align: center;
+    }
+  }
+  .day{
+    display: inline-block;
+    width: 13.2856%;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transform: skew(-30deg);
+    background-color: transparent;
+    border: none;
+    margin: 0 0.1rem;
+    &:hover {
+      background-color: $colorBlack;
+      border: 1px solid $colorBlack;
+      .dayName{
+        &:after{
+          background-color: $colorWhite;
+        }
+      }
+    }
+    &.active{
+      border: 1px solid $colorBlack;
+      &:before {
+        -webkit-box-shadow: inset 0 1px 15px 0px rgba(0,0,0,1);
+        -moz-box-shadow: inset 0 1px 15px 0px rgba(0,0,0,1);
+        box-shadow: inset 0 1px 15px 0px rgba(0,0,0,1);
+      }
+        .dayName,
+        .dayDate,{
+          color: $colorBlack;
+        }
+        .dayName{
+          &:after{
+            background-color: $colorBlack;
+          }
+        }
+        &:hover {
+          .dayName,
+          .dayDate,{
+            color: $colorWhite;
+          }
+          .dayName{
+            &:after{
+              background-color: $colorWhite;
+            }
+          }
+        }
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1299px) {
+      width: 21.28%;
+    }
+    @include breakpoint (phone){
+      width: 24.5%;
+      background-color: transparent;
+    }
+    &Name{
+      font-size: 1.8rem;
+      font-size: 1.125vw;
+      text-transform: uppercase;
+      transform: skew(30deg);
+      @include breakpoint (toDesktop){
+          font-size: 1.8vw;
+      }
+      @include breakpoint (phone){
+        font-size: 1.8rem;
+      }
+      &:after{
+        display: block;
+        width: 6rem;
+        height: 0.2rem;
+        background-color: $colorBlack;
+        content: '';
+        margin: 1rem 0 1rem 2rem;
+       @include breakpoint(tablet) {
+          margin: 1rem 0 1rem 0;
+        }
+        @media screen and (min-width: 1024px) and (max-width: 1299px) {
+          margin: 1rem 0 1rem 3rem;
+        }
+      }
+    }
+    &Date{
+      font-size: 1.4rem;
+      font-size: 0.72917vw;
+      text-transform: uppercase;
+      transform: skew(30deg);
+      @include breakpoint (phone){
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+.show{
+  display: inline-block !important;
+}
+
+.tribe-theme-belgradehangover {
+  nav#site-navigation {
+    background-color: $colorBlack;
+  }
+  .stickySidebar {
+      display: none;
+  }
+  #tribe-bar-form #tribe-bar-views {
+    z-index: 1;
+  }
+#tribe-events {
+  margin-top: 8rem;
+  .tribe-bar-submit {
+    input {
+      background-color: $colorLightBlack;
+    }
+  }
+  .tribe-events-calendar {
+      th {
+        background-color: $colorRed;
+        border-left: 1px solid $colorRed;
+        border-right: 1px solid $colorRed;
+      }
+      td.tribe-events-past div[id*=tribe-events-daynum-], td.tribe-events-past div[id*=tribe-events-daynum-]>a {
+        background-color: $colorLightBlack;
+        color: $colorWhite;
+      }
+      .tribe-events-tooltip h4 {
+        color: $colorLightBlack;
+      }
+  }
+  #tribe-events-header {
+    .tribe-events-sub-nav {
+      li {
+        padding: 1rem;
+        background-color: $colorLightBlack;
+        a {
+          color: $colorWhite;
+          text-transform: uppercase;
+          letter-spacing: 0.3rem;
+        }
+      }
+    }
+  }
+  .tribe-events-month-event-title a {
+    color: $colorBlack;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    transition: color 0.5s ease;
+    &:hover {
+      color: $colorRed;
+    }
+  }
+  #tribe-events-footer {
+    .tribe-events-sub-nav {
+      li {
+        padding: 1rem;
+        background-color: $colorLightBlack;
+        a {
+          color: $colorWhite;
+          text-transform: uppercase;
+          letter-spacing: 0.3rem;
+        }
+      }
+    }
+  }
+  }
+}
+
+#tribe-events .tribe-events-button, #tribe-events .tribe-events-button:hover, #tribe_events_filters_wrapper input[type=submit], .tribe-events-button, .tribe-events-button.tribe-active:hover, .tribe-events-button.tribe-inactive, .tribe-events-button:hover, .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-], .tribe-events-calendar td.tribe-events-present div[id*=tribe-events-daynum-]>a {
+    background-color: $colorLightBlack;
+}
+
+.tribe-events-single {
+  .tribe-events-back a {
+    padding: 1rem;
+    background-color: $colorLightBlack;
+    color: $colorWhite;
+  }
+}
